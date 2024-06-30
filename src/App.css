@@ -1,0 +1,14 @@
+.design{
+    text-decoration: line-through;
+}
+input , button{
+    padding: 1rem;
+}
+
+
+
+
+li , p{
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
