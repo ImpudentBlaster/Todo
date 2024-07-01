@@ -48,7 +48,7 @@ function Task({ list, handleDelete }) {
       <li>
       <span onClick={() => handleShow(list)}>{show ? "✔️" : "⬜"}</span>
         <span className={show? "design" : ""}>
-          {`Task: ${list.todoTask} || Description: ${list.todoDescription} `}
+          {`Task: ${list.todoTask} | Description: ${list.todoDescription} `}
         </span>
         <span onClick={() => handleDelete(list.id)}>
           {/* {show ? " " : "❌"} */}
