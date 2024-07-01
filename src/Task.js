@@ -51,7 +51,8 @@ function Task({ list, handleDelete }) {
           {`Task: ${list.todoTask} || Description: ${list.todoDescription} `}
         </span>
         <span onClick={() => handleDelete(list.id)}>
-          {show ? "" : "❌"}
+          {/* {show ? " " : "❌"} */}
+          ❌
         </span>
       </li>
     </>
